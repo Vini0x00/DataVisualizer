@@ -28,3 +28,4 @@ public class DataReader {
 
     public int getColums(){return columsStr.length-1;}
 }
+enum Format {CSV,TEST;}
