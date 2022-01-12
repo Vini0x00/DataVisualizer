@@ -33,7 +33,7 @@ public class DataReader {
         }
         this.rows = rows;
     }
-    public String getColumAt(int colum) {return columsStr[colum];}
+    public String getColumHeadLineAt(int colum) {return columsStr[colum];}
 
     public int getColums() {return columsStr.length - 1;}
 
